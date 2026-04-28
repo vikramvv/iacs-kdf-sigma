@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 import numpy as np
 import eddy_analysis
 
+
 _SETTINGS_FILE = Path(__file__).parent / ".kdf_viewer_settings.json"
 _DEFAULTS = {
     "fs_axis_label":  13,

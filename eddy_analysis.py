@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
+
 # Reference conductivity for 100% IACS (pure copper at 20°C)
 SIGMA_CU_MS_M = 58.0  # MS/m
 
