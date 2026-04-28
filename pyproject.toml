@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "iacs-kdf-sigma"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "plotly",
+    "matplotlib",
+    "pyserial",
+]
+
+[tool.hatch.envs.default]
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "plotly",
+    "matplotlib",
+    "pyserial",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
+[tool.hatch.envs.default.scripts]
+kdf         = "streamlit run kdf_viewer.py"
+reader      = "streamlit run reader.py"
+freq        = "streamlit run freq-dogbone.py"
+sigma       = "streamlit run sigma-dogbone.py"
+results     = "streamlit run results-sigma-dogbone.py"
+v2-results  = "streamlit run v2-results.py"
+v2-sigma    = "streamlit run v2-sigma-dogbone.py"
