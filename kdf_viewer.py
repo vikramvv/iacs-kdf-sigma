@@ -374,6 +374,7 @@ def main():
                     uf.name, min_value=0.0, value=default, step=0.01, format="%.2f",
                     key=f"len_{uf.name}"
                 )
+
     else:
         st.subheader("📏 Parsed Eddy Current Metadata")
         preview_rows = []
