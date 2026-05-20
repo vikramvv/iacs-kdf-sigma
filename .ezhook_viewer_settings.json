@@ -1,9 +1,10 @@
 {
-  "fs_axis_label": 19,
-  "fs_tick": 16,
-  "fs_legend": 10,
-  "fs_inside_text": 12,
+  "fs_axis_label": 17,
+  "fs_tick": 24,
+  "fs_legend": 15,
+  "fs_inside_text": 24,
   "sigma_L_mm": 0.05,
   "sigma_w_mm": 0.0,
-  "sigma_h_mm": 0.0
+  "sigma_h_mm": 0.0001,
+  "grid_L_mm": 12.7
 }
